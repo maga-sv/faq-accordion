@@ -1,0 +1,9 @@
+$WorkSans: ("Regular", 400), ("SemiBold", 600), ("Bold", 700);
+
+@each $name, $weight in $WorkSans {
+    @font-face {
+        src: url(../fonts/static/WorkSans-#{$name}.ttf);
+        font-family: "WorkSans";
+        font-weight: $weight;
+    }
+}
