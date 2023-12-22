@@ -25,6 +25,7 @@ import HelloWorld from './components/HelloWorld.vue'
     left: 0;
     object-fit: cover;
     width: 100%;
+    height: 35%;
     z-index: -1;
   }
 
